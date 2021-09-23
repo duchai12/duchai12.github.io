@@ -1,0 +1,81 @@
+@media  (max-width:46.1875em){
+    .s-full-width{
+        width: 100% !important;
+    }
+    #nav{
+
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    #nav li {
+        display: block;
+        
+    }
+    #nav li:first-child{
+        display: inline-block;
+    }
+    .subnav {
+        position: initial;
+        background-color: #333;
+       
+    }
+    .subnav li a {
+        color: #fff;
+        padding: 0 41px;
+    }
+    .ti-search {
+        display: none;
+    }
+    .member-items {
+        margin-top: 30px;
+        width: 100%;
+        
+    }
+    .picture {
+        width: 60%;
+    }
+    .place {
+        display: block;
+        
+    }
+    .place-items{
+        margin-bottom: 16px;
+    }
+   .paris{
+    padding: 0.01em 16px;
+   }
+    .contact-items{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .row-items{
+        width: 100%;
+    }
+    .tickets {
+        width: 100%;
+    }
+
+
+}
+@media (min-width:740px) {
+    .ti-menu{
+        display: none;
+    }
+    
+}
+@media (max-width:1023px) {
+    .tickets {
+        padding: 17px 0;
+    }
+    .form-control {
+        padding: 15px;
+    }
+    .social {
+        font-size: 48px;
+    }
+    .social a{
+        margin: 0 8px;
+    }
+    
+}
