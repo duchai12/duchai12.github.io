@@ -1014,3 +1014,6 @@ span.header__search-lable {
     font-size: 1.4rem;
     font-weight: 300;
 }
+.home-products--pagination{
+    margin: 48px 0 32px 0;
+}
